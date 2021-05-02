@@ -1,0 +1,126 @@
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    line-height: 1.7;
+    font-family: "Roboto", sans-serif;
+    background-color: #fdfdfd;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  :focus {
+    outline-width: 0;
+  }
+
+ /* ------------------------------------------ */
+
+ /* heading */
+
+ .heading {
+     margin-top: 6vh;
+ }
+
+ .heading .container {
+     display: flex;
+     flex-direction: column;
+     margin: auto;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+
+ .heading .container h1 {
+     font-size: 3rem;
+     margin-bottom: .5rem;
+ }
+
+ .heading .container p {
+     font-size: 1.6rem;
+     width: 60%;
+     margin-bottom: 2rem;
+ }
+
+ .heading .container .illustration {
+     height: 50rem;
+     margin-bottom: 7rem;
+ }
+
+ /* ------------------------------------------------ */
+
+ /* faq */
+ 
+ .faq .container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin: auto;
+     align-items: center;
+     text-align: center;
+ }
+
+ .faq .container .faq-card {
+     max-width: 70rem;
+     margin-bottom: 2rem;
+     background: white;
+     -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    
+ }
+
+
+
+
+ .faq .container .faq-card .question {
+     font-size: 1.7rem;
+ }
+
+ .faq .container .faq-card .queston-area {
+    /* background: #ececec; */
+     padding: 1.5rem 1rem;
+     
+ }
+
+
+ .faq .container .faq-card .number {
+     color: #6C63FF;
+ }
+
+ .faq .container .faq-card .fa-plus-circle {
+     font-size: 2rem;
+     margin-top: 1rem;
+     color: #6C63FF;
+     cursor: pointer; 
+ }
+
+ .faq .container .faq-card .fa-minus-circle {
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: #6C63FF;
+    cursor: pointer; 
+}
+
+
+
+ .faq .container .faq-card .expanded {
+    font-size: 1.6rem;
+    padding: 3rem;
+ }
+
+ .faq .container .faq-card .answers {
+     display: none;
+ }
